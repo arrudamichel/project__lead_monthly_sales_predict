@@ -1,0 +1,301 @@
+,N,Features,Model,R² Score,MAE,RMSE
+0,1,"Index(['Avg - real visits'], dtype='object')",Linear Regression,-0.021882379563243015,185312.15429343542,774639.3128727252
+1,1,"Index(['Avg - real visits'], dtype='object')",Ridge Regression,-0.021882379563239907,185312.1542934358,774639.3128727241
+2,1,"Index(['Avg - real visits'], dtype='object')",Lasso Regression,-0.021882379561957155,185312.15429359203,774639.3128722379
+3,1,"Index(['Avg - real visits'], dtype='object')",ElasticNet Regression,-0.021882379560295595,185312.15429379436,774639.3128716081
+4,1,"Index(['Avg - real visits'], dtype='object')",Decision Tree,-2.998998842478733,267067.99688777013,1532409.0830525735
+5,1,"Index(['Avg - real visits'], dtype='object')",Random Forest,-1.3753171607532986,242374.1808126586,1181027.1499830082
+6,1,"Index(['Avg - real visits'], dtype='object')",Gradient Boosting,-2.3813858298254225,247459.6875262436,1409115.0145815255
+7,1,"Index(['Avg - real visits'], dtype='object')",AdaBoost,-2.957086455034229,263471.3231971593,1524357.555714234
+8,1,"Index(['Avg - real visits'], dtype='object')",K-Nearest Neighbors,-0.35268562354468225,225085.67194725276,891245.8394367851
+9,1,"Index(['Avg - real visits'], dtype='object')",Support Vector Regressor,-0.018700012405198585,138892.38422435892,773432.173462099
+10,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Linear Regression,-0.03144948285290927,172322.80210457215,778257.0428504793
+11,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Ridge Regression,-0.031449482852908606,172322.80210457253,778257.0428504789
+12,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Lasso Regression,-0.031449482851635624,172322.8021045347,778257.0428499987
+13,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",ElasticNet Regression,-0.0314494828514118,172322.8021047569,778257.0428499143
+14,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Decision Tree,-0.12191425237817466,196585.57804196756,811668.9094911164
+15,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Random Forest,-0.04394225979729849,184697.00896748074,782955.9297421044
+16,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Gradient Boosting,0.0019377764665980957,162535.06485615656,765557.6264452016
+17,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",AdaBoost,0.0005843269794069128,174519.04742551854,766076.5282319805
+18,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",K-Nearest Neighbors,-0.044039389813167906,168564.2934989011,782992.3526152716
+19,2,"Index(['Avg - real visits', 'Followers'], dtype='object')",Support Vector Regressor,-0.018679611420007625,138876.79252353762,773424.4288576404
+20,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Linear Regression,0.05321179674001897,166032.8305704318,745633.646752766
+21,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Ridge Regression,0.05321179674001908,166032.83057043212,745633.6467527659
+22,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Lasso Regression,0.053211796727931304,166032.83057141502,745633.6467575257
+23,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",ElasticNet Regression,0.0532117967348259,166032.8305711441,745633.6467548108
+24,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Decision Tree,0.7753726366999886,146623.6025791697,363187.0945682113
+25,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Random Forest,0.4415562572225179,150004.65202731555,572649.377389976
+26,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Gradient Boosting,0.41343562660102373,155978.54595927996,586890.2828967165
+27,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",AdaBoost,0.04611628636757259,176291.2552709438,748422.4308762467
+28,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",K-Nearest Neighbors,0.33332276960358453,145094.43567912088,625686.6512189347
+29,3,"Index(['Estimated Sales - Domain', 'Avg - real visits', 'Followers'], dtype='object')",Support Vector Regressor,-0.018657384928057796,138873.06327377772,773415.9911676053
+30,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Linear Regression,0.04796033898393903,168008.23583065002,747698.6539701843
+31,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Ridge Regression,0.047960338983941364,168008.23583065032,747698.6539701833
+32,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Lasso Regression,0.047960338971529626,168008.23583187518,747698.6539750572
+33,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",ElasticNet Regression,0.047960338979009864,168008.23583151968,747698.6539721199
+34,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Decision Tree,0.7652257215251879,141304.2554273834,371299.47534548375
+35,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Random Forest,0.4047335873326535,148477.31677785888,591227.692263836
+36,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Gradient Boosting,0.13981791151698186,152618.37746487928,710713.0268466336
+37,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",AdaBoost,-8.967197658015014,896924.2012680018,2419277.0950173046
+38,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",K-Nearest Neighbors,-2.937883137729309,573802.5457978022,1520654.2852721445
+39,4,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Support Vector Regressor,-0.018604072819197404,138856.11929251652,773395.7522837463
+40,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Linear Regression,0.046025086654366665,167774.89054201223,748458.2079204965
+41,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Ridge Regression,0.046025252502598146,167774.88596139188,748458.1428608844
+42,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Lasso Regression,0.04602517867834188,167774.8880009538,748458.1718209616
+43,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",ElasticNet Regression,0.04616510409473762,167773.2843624985,748403.2793020103
+44,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Decision Tree,0.03337937040678818,169897.0181087021,753402.5886858186
+45,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Random Forest,0.4278757697333614,147548.87263085096,579621.1829082139
+46,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Gradient Boosting,0.1560861180546308,154565.43446263953,703960.2611536242
+47,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",AdaBoost,0.04611628636757259,176291.2552709436,748422.4308762467
+48,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",K-Nearest Neighbors,-2.937883137729309,573802.5457978022,1520654.2852721445
+49,5,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Support Vector Regressor,-0.01860385010789445,138856.3107506229,773395.6677347102
+50,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Linear Regression,0.04475909926550414,167403.33333878042,748954.6698745643
+51,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Ridge Regression,0.04475926789443985,167403.33913117577,748954.6037679757
+52,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Lasso Regression,0.04475919229313097,167403.33654882174,748954.6334055034
+53,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",ElasticNet Regression,0.04490146151764318,167408.58835185648,748898.8583790847
+54,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Decision Tree,0.133877788421927,168943.80032084926,713162.775298454
+55,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Random Forest,0.3936121909467768,147405.17749650506,596725.1043431507
+56,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Gradient Boosting,0.10688155033733915,153355.74598454358,724191.8096036204
+57,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",AdaBoost,0.04611628636757259,176291.25527094374,748422.4308762467
+58,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",K-Nearest Neighbors,-2.9502217796058643,574607.6802417582,1523034.7690886536
+59,6,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers'],
+      dtype='object')",Support Vector Regressor,-0.01860373162453488,138856.4411325317,773395.6227542598
+60,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Linear Regression,0.044700733864175723,167812.34401505638,748977.5501617002
+61,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Ridge Regression,0.04470889632628994,167788.57123837335,748974.350371774
+62,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Lasso Regression,0.04470098866923167,167811.86353434715,748977.4502750542
+63,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",ElasticNet Regression,0.044979632809439396,167256.8474187278,748868.2104476179
+64,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Decision Tree,0.1769201284137839,156382.67902414594,695216.4966939286
+65,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Random Forest,0.36746197063977637,149272.61058708554,609456.0588653336
+66,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Gradient Boosting,0.1871204889685798,153470.7744596673,690895.1863649266
+67,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",AdaBoost,-8.39895336974309,876218.2426563991,2349301.877636608
+68,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",K-Nearest Neighbors,-2.9502217796058643,574607.6802417582,1523034.7690886536
+69,7,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers'],
+      dtype='object')",Support Vector Regressor,-0.018603660818924617,138856.5355305406,773395.5958739588
+70,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Linear Regression,0.04810190650326218,165874.2965640857,747643.0608141335
+71,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Ridge Regression,0.048106959065239985,165869.42303376953,747641.0766112338
+72,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Lasso Regression,0.04810210630795053,165874.182233778,747642.9823484881
+73,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",ElasticNet Regression,0.048162117944254845,166377.82667683205,747619.414702096
+74,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Decision Tree,0.14509244473849414,169298.55005711297,708530.6727724492
+75,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Random Forest,0.32809448138413466,150310.9758354327,628135.2736165089
+76,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Gradient Boosting,0.2362215543771935,147751.8415124156,669703.8218340159
+77,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",AdaBoost,0.04611628636757248,176291.25527094392,748422.4308762467
+78,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",K-Nearest Neighbors,-2.9506749502903515,574703.5301362638,1523122.1280970343
+79,8,"Index(['Rank - Domain', 'Estimated Sales - Domain', 'Number of technologies',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Support Vector Regressor,-0.018603615660454098,138856.60653669317,773395.5787302138
+80,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Linear Regression,0.05045377567335718,165891.01521975576,746718.8830467386
+81,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Ridge Regression,0.05045891813718428,165886.14804371045,746716.8610387807
+82,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Lasso Regression,0.05045397838222465,165890.90091617763,746718.8033420632
+83,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",ElasticNet Regression,0.050524104162669614,166399.57851410058,746691.2295307362
+84,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Decision Tree,0.16000400044925656,166461.28651865144,702324.2873431008
+85,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Random Forest,0.36590435104255525,149265.47110112623,610205.9876949773
+86,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Gradient Boosting,0.19432579330257482,154019.45072159427,687826.3486239929
+87,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",AdaBoost,0.04611628636757259,176291.25527094363,748422.4308762467
+88,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",K-Nearest Neighbors,0.33667707727904683,140514.87106813188,624110.6321196998
+89,9,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers',
+       'Posts'],
+      dtype='object')",Support Vector Regressor,-0.018603516386412666,138856.6426187541,773395.5410422921
+90,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Linear Regression,0.05046272380813066,165895.3104476108,746715.3646519654
+91,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Ridge Regression,0.050467729776895065,165891.30138204328,746713.3963044283
+92,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Lasso Regression,0.050462921321567045,165895.21399318633,746715.2869897562
+93,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",ElasticNet Regression,0.05052556163072608,166356.35433978518,746690.6564361282
+94,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Decision Tree,0.1525018289387876,166747.85957359645,705453.6147328044
+95,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Random Forest,0.36359053890157766,152754.75168997032,611318.293357181
+96,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Gradient Boosting,0.2545437627869841,151613.64709699017,661622.3304896735
+97,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",AdaBoost,0.04611628636757259,176291.25527094366,748422.4308762467
+98,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",K-Nearest Neighbors,0.33667707727904683,140514.87106813188,624110.6321196998
+99,10,"Index(['Rank - Domain', 'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts'],
+      dtype='object')",Support Vector Regressor,-0.018603494258100595,138856.68778083808,773395.5326416055

@@ -1,0 +1,12 @@
+name: leads-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.10
+
+  - pip:
+    - jupyterlab==4.3.0
+    - pandas==2.2.3
+    - ydata-profiling==4.12.0
+    - ipywidgets==8.1.5

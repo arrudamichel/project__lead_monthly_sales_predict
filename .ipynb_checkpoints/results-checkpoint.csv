@@ -1,0 +1,1111 @@
+,N,Features,Model,R² Score,MAE,RMSE
+0,1,"Index(['Avg - real visits'], dtype='object')",Linear Regression,-0.02563140947539999,187999.36901224015,776058.9905393817
+1,1,"Index(['Avg - real visits'], dtype='object')",Ridge Regression,-0.025631409475398437,187999.36901224026,776058.9905393812
+2,1,"Index(['Avg - real visits'], dtype='object')",Lasso Regression,-0.0256314094740131,187999.3690123127,776058.9905388571
+3,1,"Index(['Avg - real visits'], dtype='object')",ElasticNet Regression,-0.025631409472226974,187999.36901240604,776058.9905381813
+4,1,"Index(['Avg - real visits'], dtype='object')",Decision Tree,-2.998995231938285,267017.1210691477,1532408.391276151
+5,1,"Index(['Avg - real visits'], dtype='object')",Random Forest,-1.3753148968317537,242344.3747062569,1181026.5871627054
+6,1,"Index(['Avg - real visits'], dtype='object')",Gradient Boosting,-2.439329522734026,249179.42134976454,1421137.083301534
+7,1,"Index(['Avg - real visits'], dtype='object')",AdaBoost,-2.957086455034229,263471.32319715933,1524357.555714234
+8,1,"Index(['Avg - real visits'], dtype='object')",K-Nearest Neighbors,-0.34966776121887544,223043.75585494508,890251.0927501096
+9,1,"Index(['Avg - real visits'], dtype='object')",Support Vector Regressor,-0.018701339047650034,138892.9754539928,773432.6770782804
+10,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Linear Regression,-0.034615147679097014,187929.23534377865,779450.4185419702
+11,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Ridge Regression,-0.034615147679194935,187929.23534377807,779450.4185420071
+12,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Lasso Regression,-0.03462589052538556,187929.163952801,779454.4652130046
+13,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",ElasticNet Regression,-0.03462589060600041,187929.16395230175,779454.465243371
+14,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Decision Tree,-2.9447609253421763,270513.29382656753,1521981.6703285605
+15,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Random Forest,-0.9836884346026269,258075.495337401,1079284.1741993085
+16,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Gradient Boosting,-1.5683443290156136,269117.8402902746,1228077.295094515
+17,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",AdaBoost,-4.470432635812831,307867.98900413315,1792296.7426618473
+18,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",K-Nearest Neighbors,-0.23161975081257902,210963.51133186813,850427.7062606303
+19,2,"Index(['Avg - Total Visits', 'Avg - real visits'], dtype='object')",Support Vector Regressor,-0.018701264992285527,138892.71436613056,773432.6489656052
+20,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Linear Regression,-0.11177644527435993,196253.34156929774,807993.3986809418
+21,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Ridge Regression,-0.11177644527367514,196253.34156912126,807993.3986806929
+22,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Lasso Regression,-0.11173979167587444,196209.60668451767,807980.0794071608
+23,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",ElasticNet Regression,-0.11173979107278398,196209.60654771773,807980.0791880065
+24,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Decision Tree,-3.0659854322274356,299281.4519474467,1545190.3507742672
+25,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Random Forest,-0.5603226334818787,229625.3996418577,957207.9180034299
+26,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Gradient Boosting,-1.3566749760946615,268026.71020376845,1176383.4973885173
+27,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",AdaBoost,-5.127746870759802,1113623.3013579755,1896922.058239906
+28,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",K-Nearest Neighbors,-0.35025525954918746,219285.312167033,890444.8308467596
+29,3,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits'], dtype='object')",Support Vector Regressor,-0.018701187222675886,138892.61177674468,773432.6194429382
+30,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Linear Regression,-0.07479045920357752,182037.33319767562,794439.7747482162
+31,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Ridge Regression,-0.0747904592032731,182037.33319751735,794439.7747481036
+32,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Lasso Regression,-0.07478296692641995,181993.88360457323,794437.0057557584
+33,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",ElasticNet Regression,-0.07478296665331241,181993.88348765878,794437.0056548233
+34,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Decision Tree,-0.07961193241309195,189178.1668694043,796219.6956336283
+35,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Random Forest,-0.02285693998591376,170680.92430164776,775008.6082651363
+36,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Gradient Boosting,-0.014119921454874396,166622.83751129216,771691.5332879185
+37,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",AdaBoost,0.0005798238001305522,174101.0754060502,766078.2541284985
+38,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",K-Nearest Neighbors,-0.03572491599810701,164669.25323076922,779868.3408710358
+39,4,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers'],
+      dtype='object')",Support Vector Regressor,-0.018675742780306592,138879.01758271988,773422.9602392159
+40,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.06890716774742356,181573.475872447,792262.4505989169
+41,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.06890716774721839,181573.4758723026,792262.4505988407
+42,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.0689021114744015,181538.33460217822,792260.576769218
+43,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.06890211127493662,181538.334495777,792260.576695297
+44,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Decision Tree,-0.10608379965230896,186176.44573233507,805922.1535572184
+45,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Random Forest,-0.009561355188993925,165725.20106914325,769955.1660956308
+46,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.03227646864683498,150046.05009821386,753832.2775062597
+47,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",AdaBoost,0.0005798238001306633,174101.07540605013,766078.2541284984
+48,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,-0.0277017699573614,156582.54323956041,776841.8799028624
+49,5,"Index(['Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018675880066648,138879.08740492418,773423.0123560969
+50,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Linear Regression,0.01107197057880227,176404.112958071,762046.4100481023
+51,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Ridge Regression,0.01107197057941911,176404.11295789137,762046.4100478647
+52,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Lasso Regression,0.011063912251498165,176360.40905492837,762049.514827571
+53,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,0.011063912772242501,176360.4089222895,762049.5146269347
+54,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.5975758944241124,160684.79204725276,486117.2943604194
+55,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Random Forest,0.5476900908242319,142078.934744212,515367.62078562827
+56,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.6007258173219434,136315.6207826326,484211.0465236164
+57,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",AdaBoost,-7.864078261913804,819106.165931649,2281475.814288608
+58,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.31749374948619913,147152.8742065934,633070.9638757743
+59,6,"Index(['Estimated Sales - Domain', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018660522665230772,138876.00069530908,773417.1823307347
+60,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.0004340330519863045,177518.58026894476,766466.7277791605
+61,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.00043403305149625204,177518.580268777,766466.7277789728
+62,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.00044539839127555325,177476.4894916674,766471.081454359
+63,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.0004453980042677941,177476.4893732215,766471.0813061099
+64,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.7879406438108397,132759.12767545786,352880.6116853438
+65,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Random Forest,0.5330383804177798,143052.1787583331,523648.26821480267
+66,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.5691755402298126,140077.0675929291,502978.30656177865
+67,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",AdaBoost,-7.9206910920512765,808945.8690117378,2288749.84915117
+68,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.2795379981412106,174773.37535824176,650436.072154696
+69,7,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018661317577212122,138876.69535302807,773417.484098817
+70,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Linear Regression,0.024912549228642167,177560.66788545274,756694.9957979161
+71,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Ridge Regression,0.02491248646818567,177560.66273300353,756695.020149846
+72,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Lasso Regression,0.024839951419512674,177477.62215736846,756723.1642336631
+73,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,0.024783230825916713,177473.05614142213,756745.171473912
+74,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.6758366523021934,147595.67976336996,436295.8004032456
+75,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Random Forest,0.5491600432527015,139537.9563579543,514529.49810483016
+76,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.6703409552887195,130803.29343062667,439978.62302558887
+77,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",AdaBoost,-7.921140715993269,824325.6785139644,2288807.5276287757
+78,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.2795379981412106,174773.37535824176,650436.072154696
+79,8,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018661422839853614,138876.74545300586,773417.5240590883
+80,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.08392583524375885,184698.64751767626,797808.873158645
+81,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.08392579530202737,184698.63108417296,797808.8584593607
+82,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.0840387029584051,184598.83563705604,797850.4094507594
+83,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.08400246362325725,184584.09493037147,797837.0732986664
+84,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.3959016331987064,168658.83549413917,595597.5589077572
+85,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Random Forest,0.4744824102448687,149063.8785269907,555511.0559248747
+86,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.5093626886890299,144092.80255322251,536759.0359191872
+87,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",AdaBoost,-0.1392922754615218,184656.45850040013,817930.974060595
+88,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.27327410763983173,171084.0833450549,653257.4860069421
+89,9,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.01866190712756821,138876.8359069443,773417.707906514
+90,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.13704299968574474,188038.51455153097,817123.1649902667
+91,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.1370429658016652,188038.4989306276,817123.1528150602
+92,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.1372658652016756,187951.4850646223,817203.2409650299
+93,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.13723496892661324,187937.46550208924,817192.140347148
+94,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.0735149095419626,190657.99148864468,737595.5632322918
+95,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Random Forest,0.49064316742151626,143929.88293309702,546902.7994377465
+96,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.4965893591121131,143951.98526993956,543701.1779574221
+97,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",AdaBoost,-7.918641332721757,824772.4579164644,2288486.884329801
+98,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.2728830801975832,171033.5863736264,653433.21061963
+99,10,"Index(['Estimated Page Views', 'Estimated Sales - Domain', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018661989499701992,138876.86620041984,773417.7391769802
+100,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.13658106856452168,188175.32410489832,816957.1673263595
+101,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.13658103450648884,188175.30857421205,816957.1550861618
+102,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.1368242610211139,188086.19600511252,817044.5641691319
+103,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.1367931848826378,188073.1149565708,817033.396759881
+104,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.06792439419530161,194558.25482197801,739817.5836297078
+105,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Random Forest,0.4828442611180682,141953.80506744253,551073.7859029837
+106,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.4809606460981084,142065.7047555698,552076.4504038335
+107,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",AdaBoost,-10.643523152077117,921676.3054046832,2614816.903698382
+108,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.3113893088932378,140128.33312527472,635895.8033905484
+109,11,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Avg Total Users', 'Avg - Total Visits', 'Avg - real visits',
+       'Followers', 'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018607795299994567,138857.84323651053,773397.1654668873
+110,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.1366848090921844,188121.66133081447,816994.4500315448
+111,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.13668476595836054,188121.65013839607,816994.434530284
+112,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.13692742716713102,188031.71463653623,817081.6364895594
+113,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.13688875548308266,188022.20493010886,817067.7401797194
+114,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.361704716664457,173356.51987692306,612223.3591494546
+115,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Random Forest,0.4891307551155748,141026.50966214197,547714.1456109583
+116,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.5040812659973684,140126.12540811746,539640.2510197844
+117,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",AdaBoost,-0.1392922754615218,184656.45850040021,817930.974060595
+118,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.3113893088932378,140128.33312527472,635895.8033905484
+119,12,"Index(['Estimated Page Views', 'Rank - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - real visits', 'Followers', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.01860776879097914,138857.87417591445,773397.1554031525
+120,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.17040201706416225,189981.24313849283,829023.0563569664
+121,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.1704019407127655,189981.2308148358,829023.029316228
+122,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.17066064926637647,189890.5726801746,829114.6489088795
+123,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.17059207168306734,189879.25103416113,829090.3636851184
+124,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Decision Tree,0.02027674967317561,173576.70669670327,758491.6176654419
+125,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Random Forest,0.45254056590728864,140302.93057834727,566989.5444486574
+126,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.4301925668587949,144190.23691251889,578446.4145189566
+127,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",AdaBoost,0.1979479867024062,153795.5398555752,686278.4235200249
+128,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.3113893088932378,140128.33312527472,635895.8033905484
+129,13,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.01860774736852644,138857.9004218444,773397.1472704519
+130,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Linear Regression,-0.17060875066888537,189993.742317924,829096.2702419347
+131,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Ridge Regression,-0.1706086728112448,189993.72986022916,829096.2426701775
+132,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Lasso Regression,-0.17087737291907001,189903.61176527612,829191.392087904
+133,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",ElasticNet Regression,-0.17080735695343763,189892.16470107652,829166.5997803167
+134,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Decision Tree,-0.2246278177426626,187809.3314153846,848010.3218680781
+135,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Random Forest,0.435594200830523,141037.4258260139,575698.1210305486
+136,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Gradient Boosting,0.4167576376864547,142232.6671675486,585225.9946861113
+137,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",AdaBoost,0.1979479867024062,153795.5398555751,686278.4235200249
+138,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",K-Nearest Neighbors,0.3211921606461595,127097.29948131868,631353.3699233896
+139,14,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic'],
+      dtype='object')",Support Vector Regressor,-0.018609578080932554,138858.5092421823,773397.842271604
+140,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Linear Regression,0.30489482875151763,176423.15531707092,638887.4218875773
+141,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Ridge Regression,0.3048947747730858,176423.13550114093,638887.4466939964
+142,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Lasso Regression,0.30491229968054745,176345.39132788338,638879.3928673619
+143,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",ElasticNet Regression,0.3048630384318143,176329.4566579791,638902.0313337586
+144,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Decision Tree,-0.09420636915138214,174764.7846901099,801583.3680468405
+145,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Random Forest,0.3921500371881471,142795.3499854521,597444.0984568795
+146,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Gradient Boosting,0.2694753565609139,152397.2267975441,654962.618671033
+147,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",AdaBoost,0.1979479867024062,153795.53985557507,686278.4235200249
+148,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",K-Nearest Neighbors,0.3211921606461595,127097.29948131868,631353.3699233896
+149,15,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - real visits', 'Followers', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Support Vector Regressor,-0.018609560895173516,138858.53248397989,773397.835747304
+150,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Linear Regression,0.30565389069028814,176790.38216942703,638538.490811028
+151,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Ridge Regression,0.30565072745343147,176783.3073995228,638539.9453062437
+152,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Lasso Regression,0.3056702801967809,176712.53952416542,638530.9546612909
+153,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",ElasticNet Regression,0.30499039118033766,176305.10613039482,638843.5035462618
+154,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Decision Tree,-0.2740587135153525,185611.99704835165,864955.5695804243
+155,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Random Forest,0.39028529805872214,142120.50517232617,598359.8049083983
+156,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Gradient Boosting,0.16488110854440707,154953.69948112074,700282.4336389577
+157,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",AdaBoost,0.1979479867024061,153795.53985557507,686278.423520025
+158,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",K-Nearest Neighbors,0.3211941165906499,127092.5548967033,631352.4603191074
+159,16,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Support Vector Regressor,-0.018609546400634613,138858.5528563906,773397.8302446828
+160,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Linear Regression,0.30904904445039516,174342.67824317585,636975.4425162842
+161,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Ridge Regression,0.30904477057163593,174342.87187943392,636977.412519786
+162,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Lasso Regression,0.3090688529050091,174264.43232993127,636966.3119191888
+163,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",ElasticNet Regression,0.3083227466630526,174578.54137867715,637310.1351159922
+164,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Decision Tree,-0.3941842829693605,187934.85269670328,904813.7038114127
+165,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Random Forest,0.3936042936430211,141464.2983262878,596728.9900611633
+166,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Gradient Boosting,0.24584591551961954,149249.62798940323,665470.9809841387
+167,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",AdaBoost,0.19794798670240632,153795.53985557516,686278.4235200249
+168,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",K-Nearest Neighbors,0.3211693283995679,127112.04048791209,631363.9878728136
+169,17,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate', 'Avg - real visits',
+       'Followers', 'Posts', 'Semrush Rank', 'Organic Keywords',
+       'Organic Traffic', 'Adwords Keywords', 'Adwords Traffic',
+       'PLA keywords'],
+      dtype='object')",Support Vector Regressor,-0.0186095345034627,138858.57065752897,773397.8257281107
+170,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Linear Regression,0.3099082617381588,173863.69504260307,636579.2707189467
+171,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Ridge Regression,0.30990123958263094,173858.2053911775,636582.5095254888
+172,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Lasso Regression,0.30992477927410167,173788.13337241788,636571.6523232171
+173,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",ElasticNet Regression,0.3088288928557197,174225.2381186222,637076.9113614593
+174,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Decision Tree,-0.32271769586742316,181784.74944395604,881318.0404950851
+175,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Random Forest,0.4257158455700947,140492.69879405614,580714.2658055316
+176,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Gradient Boosting,0.2625653369586547,148590.78140817102,658052.9678589071
+177,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",AdaBoost,0.1979479867024061,153795.53985557504,686278.423520025
+178,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",K-Nearest Neighbors,0.3211693283995679,127112.04048791209,631363.9878728136
+179,18,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords'],
+      dtype='object')",Support Vector Regressor,-0.018609523835150243,138858.5866681196,773397.8216780556
+180,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Linear Regression,0.3110430723651949,171996.49189632322,636055.6489239553
+181,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Ridge Regression,0.3110368921411518,171991.50815627587,636058.5017565788
+182,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Lasso Regression,0.3110630247888668,171915.11238965127,636046.438664822
+183,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",ElasticNet Regression,0.31007103442059625,172139.26847028136,636504.1909718929
+184,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Decision Tree,-0.49613099666147864,185770.05376923078,937311.3773486299
+185,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Random Forest,0.3801255211176682,134204.32703372528,603324.492707436
+186,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Gradient Boosting,0.31126210909832996,142049.89870713843,635954.5318432631
+187,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",AdaBoost,-0.8326394380029987,202086.89956611165,1037379.334995834
+188,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",K-Nearest Neighbors,0.3210499104345417,127516.04724835164,631419.5193110624
+189,19,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - real visits', 'Followers', 'Posts',
+       'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Support Vector Regressor,-0.01860951457630211,138858.60097943622,773397.8181630811
+190,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Linear Regression,0.31037585478041874,171984.23378460945,636363.5671677997
+191,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Ridge Regression,0.31037320463357954,171979.52033363632,636364.789902885
+192,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Lasso Regression,0.3103948667017402,171902.5657482848,636354.7953045027
+193,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",ElasticNet Regression,0.3097554210298058,172166.43538698528,636649.7612310436
+194,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Decision Tree,-0.3616300871152016,177580.8344945055,894187.6099420992
+195,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Random Forest,0.3532470604427208,135258.97124876556,616266.1078648504
+196,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Gradient Boosting,0.3695444924100463,136957.08999525558,608451.9675422526
+197,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",AdaBoost,-0.7252785828080233,191422.42622493277,1006534.5660409963
+198,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",K-Nearest Neighbors,0.3210499104345417,127516.04724835164,631419.5193110624
+199,20,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Estimated Sales - Domain', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Support Vector Regressor,-0.018609506410432353,138858.61392360943,773397.8150630384
+200,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Linear Regression,0.31047720167701953,172009.49610854336,636316.8055783547
+201,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Ridge Regression,0.3104745504037896,172004.78285154692,636318.0289230321
+202,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Lasso Regression,0.31049621756046575,171927.8336030205,636308.031242201
+203,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",ElasticNet Regression,0.30985681045141344,172193.91010795804,636603.0010509528
+204,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Decision Tree,-0.4242208938261416,184693.61801098898,914508.5173489682
+205,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Random Forest,0.35372949129211584,133806.0547585531,616036.2200463995
+206,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Gradient Boosting,0.42100564706690535,134097.66005013546,583090.8713000579
+207,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",AdaBoost,-0.2579828612757371,173359.97120326586,859481.3166645832
+208,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",K-Nearest Neighbors,0.31254903942716206,129840.04697142856,635360.1026279259
+209,21,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Number of technologies', 'Avg Total Users', 'Avg - Total Visits',
+       'Avg - Average Bounce Rate', 'Avg - Average Time On Site',
+       'Avg - Average Pages Per Visit', 'Avg - real visits', 'Followers',
+       'Posts', 'Semrush Rank', 'Organic Keywords', 'Organic Traffic',
+       'Adwords Keywords', 'Adwords Traffic', 'PLA keywords',
+       'Average ticket value'],
+      dtype='object')",Support Vector Regressor,-0.018609438750712526,138858.6083351978,773397.7893771008
+210,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Linear Regression,0.15267849483510387,198720.74764211537,705380.0829571444
+211,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Ridge Regression,0.1526712396085519,198725.43125601683,705383.1028742129
+212,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Lasso Regression,0.15265045425091528,198682.96979170336,705391.7545043926
+213,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",ElasticNet Regression,0.15180393020470362,199217.51192113583,705744.0188221671
+214,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Decision Tree,-0.4961353115161835,187955.4638131868,937312.7289547056
+215,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Random Forest,0.3935237131864735,133039.36952385347,596768.6366950619
+216,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Gradient Boosting,0.4090895113402018,137488.21399626718,589060.5352599715
+217,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",AdaBoost,0.2200474795308781,151051.1609539596,676757.6305847598
+218,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",K-Nearest Neighbors,0.31552753653458965,129286.1496131868,633982.2061710652
+219,22,"Index(['Employee Count', 'Estimated Page Views', 'Rank - Domain',
+       'Product Count - Domain', 'Estimated Sales - Domain',
+       'Combined Followers', 'Number of technologies', 'Avg Total Users',
+       'Avg - Total Visits', 'Avg - Average Bounce Rate',
+       'Avg - Average Time On Site', 'Avg - Average Pages Per Visit',
+       'Avg - real visits', 'Followers', 'Posts', 'Semrush Rank',
+       'Organic Keywords', 'Organic Traffic', 'Adwords Keywords',
+       'Adwords Traffic', 'PLA keywords', 'Average ticket value'],
+      dtype='object')",Support Vector Regressor,-0.018609401958783467,138858.6134228302,773397.7754096292
